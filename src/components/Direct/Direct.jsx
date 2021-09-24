@@ -1,6 +1,4 @@
-
-
-export function Direct(props) {
+export function Direct() {
   return (
     <a className="direct" href="#">
       <img src="https://img.icons8.com/material-sharp/24/000000/move-down.png" alt="Seta para a próxima seção"/>

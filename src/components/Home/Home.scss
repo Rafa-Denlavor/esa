@@ -9,18 +9,16 @@
     height: 100vh;
     object-fit: cover;
     filter: brightness(50%);
-    position: absolute;
-    top: 0;
   }
 
   .container-text {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 900px;
-
+    top: 40%;
+    
     .title {
       font-size: 150px;
       text-transform: uppercase;
@@ -33,5 +31,5 @@
       font-size: 40px;
     }
   }
-
+    
 }
