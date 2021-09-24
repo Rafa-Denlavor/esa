@@ -1,0 +1,40 @@
+.containerMainLegacy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #c95aff;
+  max-width: 100%;
+  height: 70vh;
+
+  .containerContentLegacy {
+    text-align: center;
+    max-width: 1000px;
+    padding: 5rem 7rem;
+    border-radius: 10px;
+    
+    .legacyTitle {
+      font-size: 4rem;
+    }
+  
+    .legacyDescription {
+      padding: 2rem 0;
+    }
+
+    .legacyPdf {
+      text-decoration: none;
+      background-color: #fdfe62;
+      padding: 1rem;
+      color: black;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+  }
+}
+
+.containerCardGoals {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}

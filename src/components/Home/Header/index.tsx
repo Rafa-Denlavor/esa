@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import logoImage from '../../assets/img/logo.png';
-import './styles.scss'
-import '../../assets/styles/global.scss'
+import logoImage from '../../../assets/img/logo.png';
+import './Header.scss'
+import '../../../assets/styles/global.scss'
 
 export function Header() {
   return (
-    <div className="container" >
+    <div className="header-container" >
       <img className="logo" src={logoImage} alt="Logo da ESA" />
       <nav>
         <Link className="link" to="/">Home</Link>
